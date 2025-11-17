@@ -2,14 +2,14 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #0d0d0d; /* Fundo escuro */
-    color: #e0e0e0; /* Texto claro */
+    background-color: #f2eaea; /* Fundo escuro */
+    color: #0c0b0b; /* Texto claro */
   
 }
 
 /* ESTILO DO CABEÇALHO (Ajustado para Flutuação) */
 .cabecalho {
-    background-color: #1a1a1a;
+    background-color: #0e0e0e;
     padding: 15px 30px;
     border-bottom: 3px solid #cc0000; /* Borda vermelha de destaque */
     overflow: hidden; /* Garante que os floats internos (logo e nav) sejam contidos */
@@ -24,6 +24,7 @@ body {
 
 .cabecalho nav {
     float: right;
+
 }
 
 .cabecalho nav a {
@@ -41,41 +42,42 @@ body {
     float: left; 
     width: 75%; 
     padding-right: 40px;
-    padding-left: 20px; /* NOVO: Adiciona padding à esquerda para não colar na borda da tela */
-    margin-top: 30px; /* NOVO: Adiciona o espaçamento superior que o wrapper-principal fornecia */
+    padding-left: 20px; 
+    margin-top: 50px;
     box-sizing: border-box; 
-}
+    }
 
-.imagem-destaque {
-    background-color: #333333; 
-    height: 400px;
-    margin-bottom: 20px;
-}
+    .imagem-destaque {
+        width: 30%;
+        background-color: #333333; 
+        height: 400px;
+        margin-bottom: 20px;
+    }
 
-.noticia-principal h2 {
-    font-size: 36px;
-    color: #ff3333;
-}
+    .noticia-principal h2 {
+        font-size: 36px;
+        color: #ff3333;
+    }
 
-.subtitulo {
-    font-size: 20px;
-    
-}
+    .subtitulo {
+        font-size: 20px;
+        
+    }
 
-.leia-mais {
-    display: inline-block;
-    background-color: #cc0000;
-    color: white;
-    padding: 10px ;
-    margin-top: 20px;
-    font-weight: bold;
-}
+    .leia-mais {
+        display: inline-block;
+        background-color: #cc0000;
+        color: white;
+        padding: 10px ;
+        margin-top: 20px;
+        font-weight: bold;
+    }
 
 /* ESTILO DA BARRA LATERAL */
 .barra-lateral {
     float: right;
     width: 25%;
-    background-color: #1a1a1a;
+    background-color: #0e0e0e;
     padding: 20px;
     border-radius: 4px;
     margin-top: 30px; 
@@ -105,7 +107,6 @@ a:hover {
 /* ESTILO PARA OS ÍCONES DA GUITARRA */
 .icone-logo {
     height: 35px;
-    vertical-align: middle;
     margin-right: 10px;
 }
 
