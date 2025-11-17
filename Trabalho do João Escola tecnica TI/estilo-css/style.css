@@ -1,4 +1,4 @@
-/* RESET BÁSICO */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -34,9 +34,7 @@ body {
 }
 
 
-/* LAYOUT PRINCIPAL (Notícia e Lateral) - USANDO FLOAT */
-/* Removido o .wrapper-principal. O layout de float será aplicado 
-   diretamente nos elementos flutuantes. O conteúdo ocupará 100% da largura do body. */
+    
 
 /* ESTILO DA NOTÍCIA PRINCIPAL */
 .noticia-principal {
@@ -57,7 +55,6 @@ body {
 .noticia-principal h2 {
     font-size: 36px;
     color: #ff3333;
-    margin-top: 0;
 }
 
 .subtitulo {
@@ -114,13 +111,3 @@ a:hover {
 
 
 
-/* ESTILO DO RODAPÉ */
-.rodape {
-    /* MANTIDO: Essencial para garantir que o rodapé fique abaixo dos elementos flutuantes (notícia e lateral) */
-    clear: both; 
-    background-color: #000000;
-    color: #666;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 40px;
-}
