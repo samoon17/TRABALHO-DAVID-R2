@@ -1,0 +1,103 @@
+
+body {
+    /* Define a fonte padrão para o corpo */
+    font-family: Arial, sans-serif;
+    /* Remove a margem padrão do navegador */
+    margin: 0;
+    /* Centraliza o conteúdo horizontalmente */
+    display: flex;
+    /* Alinha o conteúdo verticalmente no centro */
+    justify-content: center;
+    /* Cor de fundo suave para a página */
+    background-color: #f4f4f4; 
+}
+
+/* Estilo para o Contêiner Principal e o Formulário */
+.container {
+    /* Largura máxima para o contêiner */
+    max-width: 400px;
+    /* Adiciona um padding interno */
+    padding: 20px;
+    /* Cor de fundo branca para destacar o formulário */
+    background-color: #fff;
+    /* Borda sutil */
+    border: 1px solid #ccc;
+    /* Bordas arredondadas */
+    border-radius: 8px;
+    /* Centraliza o texto e os itens internos (como o logo) */
+    text-align: center;
+}
+
+/* Estilo para a imagem do logo */
+.logo img {
+    /* Garante que a imagem se ajuste ao contêiner */
+    max-width: 100%;
+    /* Altura automática */
+    height: auto;
+    /* Margem inferior para separar do formulário */
+    margin-bottom: 20px;
+}
+
+/* Estilo para o conjunto de campos (fieldset) */
+fieldset {
+    /* Remove a borda padrão */
+    border: none;
+    /* Remove o padding padrão */
+    padding: 0;
+    /* Remove a margem padrão */
+    margin: 0;
+}
+
+/* Estilo para os campos de entrada (input) */
+input[type="text"],
+input[type="password"] {
+    /* Ocupa a largura total do contêiner */
+    width: 100%;
+    /* Adiciona padding interno */
+    padding: 10px;
+    /* Margem para separar dos outros elementos */
+    margin-bottom: 10px; 
+    /* Borda simples */
+    border: 1px solid #ddd;
+    /* Bordas levemente arredondadas */
+    border-radius: 4px;
+    /* Garante que padding e borda estejam dentro da largura */
+    box-sizing: border-box;
+}
+
+/* Estilo para o botão de Entrar */
+button[type="submit"] {
+    /* Ocupa a largura total do contêiner */
+    width: 100%;
+    /* Padding interno */
+    padding: 10px;
+    /* Cor de fundo para o botão (azul é comum) */
+    background-color: #007bff;
+    /* Cor do texto do botão */
+    color: white;
+    /* Remove a borda padrão do botão */
+    border: none;
+    /* Bordas arredondadas */
+    border-radius: 4px;
+    /* Mãozinha ao passar o mouse */
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+
+/* Estilo para o link de registro */
+.login-form p {
+    /* Tamanho de fonte menor */
+    font-size: 0.9em;
+    /* Remove margem superior para melhor espaçamento */
+    margin-top: 0;
+}
+
+/* Estilo para o link em si */
+.login-form a {
+    /* Cor do link */
+    color: #007bff;
+    /* Remove o sublinhado padrão */
+    text-decoration: none;
+}
+
